@@ -26,9 +26,5 @@ class PersonInfoController extends GetxController with StateMixin<PersonInfoMode
       }
     );
   }
-  @override
-  void onClose() {
-    _dataBaseHelper.close();
-    super.onClose();
-  }
+
 }

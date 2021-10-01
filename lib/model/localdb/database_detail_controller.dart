@@ -23,9 +23,5 @@ class DataBaseDetailController extends GetxController
     });
 
   }
-  @override
-  void onClose() {
-    _dataBaseHelper.close();
-    super.onClose();
-  }
+
 }

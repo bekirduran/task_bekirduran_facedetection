@@ -22,10 +22,5 @@ class DataBaseController extends GetxController with StateMixin<List<PersonModel
     update();
   }
 
-  @override
-  void onClose() {
-    _dataBaseHelper.close();
-    super.onClose();
-  }
 
 }
