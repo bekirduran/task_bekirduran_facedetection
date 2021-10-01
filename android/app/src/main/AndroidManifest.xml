@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bekirduran.task_bekirduran">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="task_bekirduran"
         android:icon="@mipmap/ic_launcher">
